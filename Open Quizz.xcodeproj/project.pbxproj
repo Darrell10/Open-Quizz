@@ -13,6 +13,7 @@
 		B630C4DA22F8368E00AB5961 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B630C4D922F8368E00AB5961 /* Assets.xcassets */; };
 		B630C4DD22F8368E00AB5961 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B630C4DB22F8368E00AB5961 /* LaunchScreen.storyboard */; };
 		B630C4E522F83A2300AB5961 /* Balham.otf in Resources */ = {isa = PBXBuildFile; fileRef = B630C4E422F83A2300AB5961 /* Balham.otf */; };
+		B630C4EB22F840FB00AB5961 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B630C4EA22F840FB00AB5961 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B630C4DC22F8368E00AB5961 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B630C4DE22F8368E00AB5961 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B630C4E422F83A2300AB5961 /* Balham.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Balham.otf; sourceTree = "<group>"; };
+		B630C4EA22F840FB00AB5961 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,48 @@
 		B630C4D122F8368C00AB5961 /* Open Quizz */ = {
 			isa = PBXGroup;
 			children = (
-				B630C4D222F8368C00AB5961 /* AppDelegate.swift */,
-				B630C4D422F8368C00AB5961 /* ViewController.swift */,
-				B630C4D622F8368C00AB5961 /* Main.storyboard */,
-				B630C4D922F8368E00AB5961 /* Assets.xcassets */,
-				B630C4E422F83A2300AB5961 /* Balham.otf */,
-				B630C4DB22F8368E00AB5961 /* LaunchScreen.storyboard */,
-				B630C4DE22F8368E00AB5961 /* Info.plist */,
+				B630C4E922F8406300AB5961 /* Supporting Files */,
+				B630C4E622F83F2100AB5961 /* Model */,
+				B630C4E722F83F4C00AB5961 /* View */,
+				B630C4E822F83F5E00AB5961 /* Controller */,
 			);
 			path = "Open Quizz";
+			sourceTree = "<group>";
+		};
+		B630C4E622F83F2100AB5961 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B630C4E722F83F4C00AB5961 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B630C4D622F8368C00AB5961 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B630C4E822F83F5E00AB5961 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B630C4D422F8368C00AB5961 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B630C4E922F8406300AB5961 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B630C4EA22F840FB00AB5961 /* Default-568h@2x.png */,
+				B630C4D222F8368C00AB5961 /* AppDelegate.swift */,
+				B630C4D922F8368E00AB5961 /* Assets.xcassets */,
+				B630C4DB22F8368E00AB5961 /* LaunchScreen.storyboard */,
+				B630C4DE22F8368E00AB5961 /* Info.plist */,
+				B630C4E422F83A2300AB5961 /* Balham.otf */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +163,7 @@
 				B630C4DD22F8368E00AB5961 /* LaunchScreen.storyboard in Resources */,
 				B630C4DA22F8368E00AB5961 /* Assets.xcassets in Resources */,
 				B630C4E522F83A2300AB5961 /* Balham.otf in Resources */,
+				B630C4EB22F840FB00AB5961 /* Default-568h@2x.png in Resources */,
 				B630C4D822F8368C00AB5961 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
