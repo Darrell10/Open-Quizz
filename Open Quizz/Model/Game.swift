@@ -42,12 +42,9 @@ class Game {
         currentIndex = 0
         state = .over
         
-        QuestionManager.shared.get(completionHandler: receveidQuestions(_:))
-    }
-    
-    private func receveidQuestions(_ questions: [Question]) {
-        self.questions = questions
-        print(questions)
-        state = .ongoing
+        QuestionManager.shared.get { (questions) in
+            self.questions = questions
+            self.state = .ongoing
+        }
     }
 }
